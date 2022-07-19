@@ -62,6 +62,48 @@ TextureImporter:
   - first:
       213: 226503957522027589
     second: falling_down2_spritesheet_19
+  - first:
+      213: 3021119073390348968
+    second: falling_down2_spritesheet_20
+  - first:
+      213: 7887114987648226846
+    second: falling_down2_spritesheet_21
+  - first:
+      213: -6301677918676442643
+    second: falling_down2_spritesheet_22
+  - first:
+      213: -5167353691878021213
+    second: falling_down2_spritesheet_23
+  - first:
+      213: -3466592064459489037
+    second: falling_down2_spritesheet_24
+  - first:
+      213: 6123538925934184819
+    second: falling_down2_spritesheet_25
+  - first:
+      213: -445126092124726464
+    second: falling_down2_spritesheet_26
+  - first:
+      213: 7753049898867763509
+    second: falling_down2_spritesheet_27
+  - first:
+      213: -2566676300194231823
+    second: falling_down2_spritesheet_28
+  - first:
+      213: 3063474684300917672
+    second: falling_down2_spritesheet_29
+  - first:
+      213: -3306752445061281048
+    second: falling_down2_spritesheet_30
+  - first:
+      213: -6684003591849761891
+    second: falling_down2_spritesheet_31
+  - first:
+      213: 6938549029383369429
+    second: falling_down2_spritesheet_32
+  - first:
+      213: -4593341109494074610
+    second: falling_down2_spritesheet_33
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,6 +125,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -114,9 +157,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -150,12 +196,12 @@ TextureImporter:
       name: falling_down2_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3240
-        width: 1920
-        height: 1080
+        x: 28
+        y: 3306
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +217,12 @@ TextureImporter:
       name: falling_down2_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 3240
-        width: 1920
-        height: 1080
+        x: 1948
+        y: 3300
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,36 +235,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 3240
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43bc87f2f4c1399b0800000000000000
-      internalID: -5074681228691977420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: falling_down2_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 3240
-        width: 1920
-        height: 1080
+        x: 5795
+        y: 3312
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,36 +256,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 3240
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89fa91389f9571db0800000000000000
-      internalID: -4821285947895599208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: falling_down2_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 28
+        y: 2232
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +280,12 @@ TextureImporter:
       name: falling_down2_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 1948
+        y: 2232
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +301,12 @@ TextureImporter:
       name: falling_down2_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 3868
+        y: 2232
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,36 +319,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 2160
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eeac66365bdf0700800000000000000
-      internalID: 508866446242918121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: falling_down2_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 7708
+        y: 2232
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,36 +340,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c21dbee486bbe1d0800000000000000
-      internalID: -3320359618198302013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: falling_down2_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1080
-        width: 1920
-        height: 1080
+        x: 1948
+        y: 1152
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,36 +361,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 1080
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6232100767e9d7400800000000000000
-      internalID: 323588979762996006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: falling_down2_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 1080
-        width: 1920
-        height: 1080
+        x: 5795
+        y: 1152
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,12 +385,12 @@ TextureImporter:
       name: falling_down2_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 1080
-        width: 1920
-        height: 1080
+        x: 28
+        y: 1152
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,12 +406,12 @@ TextureImporter:
       name: falling_down2_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 21
+        y: 72
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,12 +427,12 @@ TextureImporter:
       name: falling_down2_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 1920
-        height: 1080
+        x: 1941
+        y: 72
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,15 +445,120 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: falling_down2_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 7708
+        y: 72
+        width: 1424
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54412583624b42300800000000000000
+      internalID: 226503957522027589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_down2_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3868
+        y: 3312
+        width: 1424
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc87f2f4c1399b0800000000000000
+      internalID: -5074681228691977420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_down2_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 7708
+        y: 3312
+        width: 1424
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa91389f9571db0800000000000000
+      internalID: -4821285947895599208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_down2_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 2232
+        width: 1424
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeac66365bdf0700800000000000000
+      internalID: 508866446242918121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_down2_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3868
+        y: 1152
+        width: 1424
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6232100767e9d7400800000000000000
+      internalID: 323588979762996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: falling_down2_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 0
-        width: 1920
-        height: 1080
+        x: 3868
+        y: 72
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,12 +574,12 @@ TextureImporter:
       name: falling_down2_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 1920
-        height: 1080
+        x: 5788
+        y: 72
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -546,22 +592,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: falling_down2_spritesheet_19
+      name: falling_down2_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 0
-        width: 1920
-        height: 1080
+        x: 7708
+        y: 1152
+        width: 1424
+        height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54412583624b42300800000000000000
-      internalID: 226503957522027589
+      spriteID: 8aac6996acb2de920800000000000000
+      internalID: 3021119073390348968
       vertices: []
       indices: 
       edges: []

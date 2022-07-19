@@ -368,6 +368,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: IND_Badguy
       objectReference: {fileID: 0}
+    - target: {fileID: 2033332324572618579, guid: a264eae0f9dc99b4ca566e0c7ce4b946,
+        type: 3}
+      propertyPath: cullingMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033332324572618579, guid: a264eae0f9dc99b4ca566e0c7ce4b946,
+        type: 3}
+      propertyPath: useUnscaledTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033332324572618579, guid: a264eae0f9dc99b4ca566e0c7ce4b946,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2033332324635054981, guid: a264eae0f9dc99b4ca566e0c7ce4b946,
         type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -530,7 +545,7 @@ PlayableDirector:
   - key: {fileID: -4674257376695527654, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
     value: {fileID: 214910241}
   - key: {fileID: -8573784437309542994, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
-    value: {fileID: 887353039}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &353122783
@@ -655,7 +670,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 12
   m_Sprite: {fileID: -6391981790525880077, guid: 648fc8e8ce9e5bd4ebe31d121459a2e3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1044,49 +1059,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867757759}
   m_CullTransparentMesh: 0
---- !u!1 &887353039
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 887353041}
-  - component: {fileID: 887353040}
-  m_Layer: 0
-  m_Name: FinalCutsceneDOne
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &887353040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887353039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a5785b1a80a986498fe0ea1fb33678f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &887353041
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887353039}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.160786, y: 3.4261625, z: -542.86475}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953325212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1513,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1112881508}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 2a2b1316f25e87548b491032986699ca, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
   m_InitialState: 0
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
@@ -1558,6 +1530,34 @@ PlayableDirector:
   - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: 5844440192425332363, guid: 2a2b1316f25e87548b491032986699ca, type: 2}
+    value: {fileID: 1653273770}
+  - key: {fileID: -5648062514900686018, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 572335295}
+  - key: {fileID: -5897400443574817900, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 572335295}
+  - key: {fileID: 3652512172707769522, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -4674257376695527654, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -1443530658710392455, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -6149034264774594096, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 1053566834}
+  - key: {fileID: -8573784437309542994, guid: 639ccb24baa8d9a4da6ba9d49a494bc5, type: 2}
+    value: {fileID: 1653273770}
+  - key: {fileID: -5648062514900686018, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 572335295}
+  - key: {fileID: -5897400443574817900, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 572335295}
+  - key: {fileID: 3652512172707769522, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -4674257376695527654, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -1443530658710392455, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 214910241}
+  - key: {fileID: -6149034264774594096, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
+    value: {fileID: 1053566834}
+  - key: {fileID: -8573784437309542994, guid: e61de488f447f824b9ae1c12c7e942c5, type: 2}
     value: {fileID: 1653273770}
   m_ExposedReferences:
     m_References: []
@@ -2120,16 +2120,28 @@ MonoBehaviour:
     - {fileID: 1009544993}
     - {fileID: 953325212}
     - {fileID: 1009544993}
-    - {fileID: 57061988}
-    - {fileID: 1009544993}
-    - {fileID: 1009544993}
     - {fileID: 1251453063}
+    - {fileID: 1009544993}
+    - {fileID: 1009544993}
     - {fileID: 953325212}
     - {fileID: 1009544993}
+    - {fileID: 953325212}
+    - {fileID: 953325212}
     - {fileID: 1009544993}
     - {fileID: 1251453063}
+    - {fileID: 1251453063}
     - {fileID: 1009544993}
+    - {fileID: 953325212}
+    - {fileID: 1251453063}
+    - {fileID: 1251453063}
     - {fileID: 1009544993}
+    - {fileID: 57061988}
+    - {fileID: 953325212}
+    - {fileID: 1009544993}
+    - {fileID: 57061988}
+    - {fileID: 1251453063}
+    - {fileID: 1009544993}
+    - {fileID: 57061988}
     names:
     - You
     - Mike
@@ -2138,32 +2150,57 @@ MonoBehaviour:
     - You
     - You
     - Mike
-    - Mike
-    - You
     - You
     - Mike
+    - Mike
     - You
+    - Mike
+    - Mike
     - You
+    - Mike
+    - Mike
+    - Mike
+    - Player
+    - Mike
+    - Mike
+    - Player
+    - Mike
+    - Mike
+    - You
+    - Mike
     sentences:
-    - "Hey mike, how\u2019s it going?"
+    - 'Hey mike, how are you feeling?
+
+'
     - "I don\u2019t know, I feel kind of bad\u2026"
-    - Huh, you never get sick.
-    - Hahah, well, I actually wanted to talk about that-
-    - "I\u2019m sure you\u2019ll feel better in no time though, knowing you. "
-    - 'Did you see the latest episode of that show we always watch yesterday?
+    - Yeah, I figured.. You look kinda bad. No offense.
+    - Heh, I know.. Hey, I wanted to talk to you about something.
+    - ...
+    - What is it?
+    - "Don\u2019t panic, but, I went to the doctor the other day, and they found
+      something weird."
+    - Oh
+    - "Yeah, it\u2019s probably nothing serious, but it could be really bad too.."
+    - "I\u2019m still waiting on the results of the test they did."
+    - Are you scared?
+    - "Honestly? Not really. It\u2019s a good excuse to take a break off work."
+    - "It\u2019s been so stressful lately."
+    - 'Yeah, tell me about it..
 
 '
-    - "\u2026\r\n"
-    - "No, I didn\u2019t. Sorry, I was so tired. I went to bed early.\r\n"
-    - "Weird.. You always stay up late. \r\n"
-    - "-your phone\u2019s ringing. It\u2019s your boss.-"
-    - 'You should probably answer that
+    - ....
+    - Anyways, I just wanted you to know that.
+    - In case it does turn out to be something serious.
+    - "\u2026 It\u2019s probably fine, like you said."
+    - "Yeah\u2026"
+    - "I\u2019m really tired though."
+    - 'You should sleep.
 
 '
-    - "ugh, don\u2019t they know it\u2019s my day off?\r\n"
-    - ' -you go outside to answer your phone.-
-
-'
+    - "Yeah, haha.. Maybe I\u2019ll sleep it off! It\u2019ll be fine."
+    - "Can you stay here with me until I fall asleep\u2026?"
+    - Yeah. Goodnight, then.
+    - Goodnight. -mike goes to sleep-
     dialogueDone: 0
   controller: {fileID: 702828102}
 --- !u!320 &1557096377
@@ -2229,10 +2266,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1653273770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32aa0a57260c65347a8be6d3b60eca1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a5785b1a80a986498fe0ea1fb33678f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: {fileID: 353122783}
 --- !u!1 &1738705366
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,12 +16,21 @@ public class DialogueController : MonoBehaviour
     private GameObject currIcon;
 
     private bool doneOnce = false;
+    public bool dialogueDone1 = false;
+    public bool dialogueDone2 = false;
+    public bool dialogueDone3 = false;
+    public bool dialogueDone4 = false;
 
     private void Start()
     {
         sentences = new Queue<string>();
         names = new Queue<string>();
         icons = new Queue<GameObject>();
+    }
+
+    private void Update()
+    {
+         Debug.Log(sentences.Count);
     }
 
     public void StartDialogue (Dialogue dialogue)
@@ -53,7 +62,7 @@ public class DialogueController : MonoBehaviour
         if (sentences.Count == 0)
         {
             EndDialogue();
-            return;
+           return;
         }
         if (doneOnce)
         {
@@ -84,5 +93,25 @@ public class DialogueController : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        if (dialogueDone1 == false)
+        {
+            dialogueDone1 = true;
+            return;
+        }
+        if (dialogueDone2 == false)
+        {
+            dialogueDone2 = true;
+            return;
+        }
+        if (dialogueDone3 == false)
+        {
+            dialogueDone3 = true;
+            return;
+        }
+        if (dialogueDone4 == false)
+        {
+            dialogueDone4 = true;
+            return;
+        }
     }
 }

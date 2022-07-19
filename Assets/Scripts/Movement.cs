@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Movement : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Movement : MonoBehaviour
     Rigidbody2D rigidbody2D;
     Animator animator;
     public DialogueTrigger dialogueTrigger;
+    public PlayableDirector director;
 
     private bool m_FacingRight = true;
     public bool triggered = false;
@@ -56,7 +58,6 @@ public class Movement : MonoBehaviour
 
     private void CutsceneBehaviour()
     {
-        checkInput();
         StartCutscene();
     }
 
@@ -102,7 +103,9 @@ public class Movement : MonoBehaviour
         if (!started)
         {
             dialogueTrigger.TriggerDialogue();
+            director.Play();
             started = true;
+            animator.SetFloat("Speed", 0);
         }
         else
         {
